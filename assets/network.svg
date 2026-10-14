@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg"><stop offset="0" stop-color="#284a5b"/><stop offset=".65" stop-color="#153442"/><stop offset="1" stop-color="#0d202b"/></radialGradient>
+    <radialGradient id="glow"><stop stop-color="#8dcee9" stop-opacity=".5"/><stop offset="1" stop-color="#8dcee9" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1600" height="650" fill="url(#bg)"/>
+  <ellipse cx="770" cy="560" rx="620" ry="250" fill="#708c98" opacity=".14" filter="url(#soft)"/>
+  <ellipse cx="220" cy="250" rx="280" ry="280" fill="url(#glow)" opacity=".25"/>
+  <g fill="none" stroke="#85b8ca" stroke-opacity=".21" stroke-width="1.5">
+    <path d="M0 230 75 132 147 187 217 92 308 159 392 96 470 189 541 74M0 230 72 343 147 187 179 295 308 159 346 284 470 189 511 304 600 205M72 343 23 474 179 295 234 421 346 284 417 412 511 304M23 474 163 541 234 421 308 569 417 412 536 558"/>
+    <path d="M1000 85 1091 161 1191 95 1274 171 1390 89 1488 183 1600 105M1000 85 1017 266 1091 161 1148 288 1274 171 1293 310 1390 89 1488 183 1544 334 1600 105M1017 266 941 382 1148 288 1206 429 1293 310 1379 419 1544 334 1600 448M941 382 1010 527 1206 429 1272 573 1379 419 1493 559 1600 448"/>
+    <path d="M0 230 147 187 308 159 470 189M75 132 217 92 392 96M1017 266 1274 171 1488 183M941 382 1206 429 1379 419 1600 448" stroke-opacity=".12"/>
+  </g>
+  <g fill="#a9d3e0" opacity=".37"><circle cx="75" cy="132" r="3"/><circle cx="147" cy="187" r="4"/><circle cx="217" cy="92" r="3"/><circle cx="308" cy="159" r="4"/><circle cx="392" cy="96" r="3"/><circle cx="470" cy="189" r="4"/><circle cx="179" cy="295" r="3"/><circle cx="346" cy="284" r="3"/><circle cx="234" cy="421" r="3"/><circle cx="1091" cy="161" r="3"/><circle cx="1191" cy="95" r="3"/><circle cx="1274" cy="171" r="4"/><circle cx="1390" cy="89" r="4"/><circle cx="1488" cy="183" r="4"/><circle cx="1148" cy="288" r="3"/><circle cx="1293" cy="310" r="4"/><circle cx="1544" cy="334" r="4"/><circle cx="1206" cy="429" r="3"/><circle cx="1379" cy="419" r="3"/></g>
+</svg>
