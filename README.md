@@ -10,4 +10,4 @@ Run `python3 -m http.server 3002` in this directory, then open `http://127.0.0.1
 
 ## GitHub Pages
 
-Publish from the root of the `main` branch. `CNAME` configures the custom domain; DNS must be pointed at GitHub Pages separately.
+Publish from the root of the `main` branch. The custom domain is intentionally not attached yet so the GitHub Pages preview remains available until Hostinger DNS is configured. Add `bellmanlabs.space` in GitHub Pages settings after the DNS records are ready.
